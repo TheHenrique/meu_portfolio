@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu portifolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="inner-width">
+      <a href="/" class="logo"></a>
+      <button class="menu-toggler">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-menu">
+        <a href="#home">inicio</a>
+        <a href="#about">sobre mim</a>
+        <a href="#services">experiências</a>
+        <a href="#contact">contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <div class="inner-width">
+      <div class="content">
+        <h1>Olá! Eu sou </h1>
+        <div class="sm">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin-in"></a>
+          <a href="#" class="fab fa-youtube"></a>
+        </div>
+        <div class="buttons">
+          <a href="#contact">Contate-me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Home -->
+  <section id="about">
+    <div class="inner-width">
+      <h1 class="section-title">Sobre mim</h1>
+      <div class="about-content">
+        <img src="images/eu.jpg" alt="" class="about-pic">
+        <div class="about-text">
+          <h2>Olá! Eu sou Henrique</h2>
+          <h3>
+            <span>Developer</span>
+            <span>Designer</span>
+            <span>Youtuber</span>
+          </h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure facilis quasi nulla. Nam exercitationem quae est dolores amet ullam, iusto sunt animi consequatur? Ipsum totam error aut fugit praesentium officiis?
+          </p>
+        </div>
+      </div>
+
+      <div class="skills">
+        <div class="skill">
+          <div class="skill-info">
+            <span>HTML</span>
+            <span>90%</span>  
+          </div>
+        <div class="skill-bar html"></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>CSS</span>
+            <span>80%</span>  
+          </div>
+        <div class="skill-bar css"></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Javascript</span>
+            <span>60%</span>  
+          </div>
+        <div class="skill-bar js"></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Python</span>
+            <span>100%</span>  
+          </div>
+        <div class="skill-bar python"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="services" class="dark">
+    <div class="inner-width">
+      <h1 class="section-title">Experiências</h1>
+      <div class="services">
+        <div class="service">
+          <i class="icon fas fa-paint-brush"></i>
+          <h4>Design</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="service">
+          <i class="icon fas fa-pager"></i>
+          <h4>Websites</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="service">
+          <i class="icon fas fa-database"></i>
+          <h4>Databases</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="service">
+          <i class="icon fab fa-android"></i>
+          <h4>Android Apps</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="service">
+          <i class="icon fas fa-credit-card"></i>
+          <h4>Ui Design</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="service">
+          <i class="icon fas fa-keyboard"></i>
+          <h4>Codes</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h1 class="section-title">Contato</h1>
+    <form>
+      <div>
+        <label>Nome</label>
+        <input type="text" placeholder="Digite seu nome" name="none" required/>
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="text" placeholder="Digite seu email" name="none" required/>
+      </div>
+      <div>
+        <label>Tefelone</label>
+        <input type="text" placeholder="Digite seu telefone" name="none">
+      </div>
+      <div>
+        <label>Mensagem</label>
+        <textarea rows="10" name="msg" required></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Enviar"/>
+      </div>
+    </form>
+  </section>
+</body>
+</html>
